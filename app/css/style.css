@@ -5,29 +5,39 @@
 .main-header__menu {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1160px;
   margin: auto;
 }
 .main-header__logo-description {
   position: absolute;
+  margin-top: 36px;
 }
 .main-header__logo-name {
   margin: 0;
+  text-align: center;
+  width: 200px;
+  font-size: 60px;
+  line-height: 0.6;
 }
 .main-header__logo-title {
   margin: 0;
-  font-family: 'Savoye';
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: #444444;
+  font-family: 'Montserrat';
 }
 .main-header__logo::before {
   position: absolute;
   content: '';
-  width: 190px;
-  height: 135px;
+  width: 200px;
+  height: 146px;
   background-image: url('../img/bely_flag.svg');
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
 }
 .main-header__menu-list {
-  width: 800px;
+  width: 670px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -35,17 +45,18 @@
   padding: 25px 0 25px 0;
   color: black;
   text-align: right;
-  font-size: 17px;
+  text-transform: uppercase;
+  font-size: 19px;
   font-family: 'Montserrat';
 }
 .main-header__menu-item {
   margin: 0;
-  width: 140px;
+  width: 170px;
 }
 .welcome {
   background-image: url('../img/background-welcome.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position-x: center;
   padding-bottom: 1000px;
 }
 .welcome__title {
@@ -65,7 +76,7 @@
   justify-content: space-between;
   width: 1100px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .author__image {
@@ -74,19 +85,20 @@
 }
 .author__description {
   margin: 0;
-  margin-top: 100px;
+  margin-top: 80px;
   width: 550px;
   text-align: center;
   font-size: 28px;
 }
 .example {
   background-color: #f2f2f2;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 .example__list {
   list-style: none;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 60px;
   padding: 0;
 }
 .example__item {
@@ -114,17 +126,18 @@
 .example__left:after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   background-image: url('../img/right-arrow.svg');
   background-repeat: no-repeat;
   transform: rotate(180deg);
 }
-.example__right:before {
+.example__right:after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
+  margin-left: -65px;
   background-image: url('../img/right-arrow.svg');
   background-repeat: no-repeat;
 }
@@ -133,6 +146,23 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+.order {
+  background-image: url('../img/marble.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.order__wrapper {
+  width: 1100px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.order__title {
+  padding-top: 10px;
 }
 @font-face {
   font-family: 'Savoye';
@@ -146,7 +176,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Savoye';
-  color: #323232;
+  color: #222222;
   font-size: 28px;
 }
 .visually-hidden {
