@@ -2,16 +2,21 @@ var gulp = require("gulp");
 var less = require('gulp-less');
 var path = require('path');
 var plumber = require('gulp-plumber');
-var autoprefixer = require("autoprefixer");
+var autoprefixer = require("gulp-autoprefixer");
 var del = require("del");
 var server = require("browser-sync").create();
  
 gulp.task("style", function () {
     return gulp.src('./app/less/**/*.less')
+      .pipe(plumber())
       .pipe(less({
         paths: [ path.join(__dirname, 'less', 'includes') ]
       }))
-      .pipe(gulp.dest('./app/css'));
+      .pipe(gulp.dest('app/css'))
+      .pipe(autoprefixer({
+        cascade: false
+    }))
+      .pipe(server.stream());
   });
 
 /*gulp.task("server", function() {
@@ -29,11 +34,11 @@ gulp.task("style", function () {
         ui: false
     });
     gulp.watch("app/less/*.less", gulp.series("style"));
-    gulp.watch("app/*.html").on("change", server.reload);
+    gulp.watch("app/").on("change", server.reload);
 });
 
   gulp.task("clean", function() {
     return del("build");
   });
 
-  gulp.task("start", gulp.series("clean", "style", "server"));
+  gulp.task("start", gulp.series("style", "server"));
