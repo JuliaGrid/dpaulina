@@ -250,6 +250,20 @@
   border: none;
   background-color: #f2f2f2;
 }
+.map {
+  background-image: url('../img/map.png');
+  background-position-x: center;
+  background-size: 2000px;
+  padding-bottom: 1000px;
+}
+.map__wrapper {
+  background-color: white;
+  width: 600px;
+  margin-left: 20%;
+}
+.map__title {
+  margin: 0;
+}
 @font-face {
   font-family: 'Savoye';
   src: url('../fonts/14274.ttf');
