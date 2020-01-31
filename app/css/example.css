@@ -23,6 +23,7 @@
 }
 .example__image {
   width: 400px;
+  height: 400px;
 }
 .example__left {
   border: none;

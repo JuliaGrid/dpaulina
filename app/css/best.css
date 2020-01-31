@@ -1,7 +1,7 @@
 .best__list {
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 0;
   list-style: none;
   display: flex;
@@ -20,4 +20,5 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Montserrat';
+  font-size: 20px;
 }
