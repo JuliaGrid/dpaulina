@@ -38,7 +38,7 @@
   background-repeat: no-repeat;
 }
 .main-header__menu-list {
-  width: 670px;
+  width: 740px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -294,6 +294,10 @@
   margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
+}
+.main-footer {
+  background-color: #f2f2f2;
+  margin-top: -10px;
 }
 @font-face {
   font-family: 'Savoye';
