@@ -25,12 +25,11 @@
 }
 .order__group {
   width: 420px;
-  margin-top: 20px;
 }
 .order__data {
   display: flex;
   justify-content: space-between;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 .order__input {
   font-family: 'Montserrat';
@@ -42,6 +41,7 @@
   -moz-appearance: none;
   appearance: none;
   padding-left: 10px;
+  margin-top: 8px;
 }
 .order__text {
   border: none;
@@ -52,6 +52,8 @@
   -moz-appearance: none;
   appearance: none;
   padding-left: 10px;
+  margin-top: 8px;
+  font-family: 'Montserrat';
 }
 .order__select {
   font-family: 'Montserrat';
