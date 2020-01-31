@@ -52,6 +52,7 @@
   -moz-appearance: none;
   appearance: none;
   padding-left: 10px;
+  padding-top: 8px;
   margin-top: 8px;
   font-family: 'Montserrat';
 }

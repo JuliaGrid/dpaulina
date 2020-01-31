@@ -90,6 +90,15 @@
                             </select>
                         </div>
                         <div class="order__data">
+                                <label for="type">Начинка:</label>
+                                <select class="order__select" id="type">
+                                    <option class="order__option" selected>Клубника</ortion>
+                                    <option class="order__option">Кококс</ortion>
+                                    <option class="order__option">Еще</ortion>
+                                    <option class="order__option">Еще</ortion>
+                                </select>
+                            </div>
+                        <div class="order__data">
                             <label for="number">Вес(кг):</label>
                             <input class="order__input" type="number" id="number" placeholder="2кг минимум">
                         </div>
@@ -105,7 +114,7 @@
                         </div>
                         <div class="order__data">
                             <label for="else">Пожелания:</label> 
-                            <textarea class="order__text" id="else"></textarea>
+                            <textarea class="order__text" id="else" rows="4" placeholder="Уточните декор вашего торта. Так же можете оставить дополнительный способ связи с вами"></textarea>
                         </div>
                     </div>
                 </form>
@@ -113,12 +122,22 @@
          </section>
 
          <section class="map" id="map">
-                <!--<iframe src="https://yandex.ua/map-widget/v1/-/CKEdq-YA" width="100%" height="400" allowfullscreen="true"></iframe>-->
+                <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3Aa31816eab409d40beb91ea2c64cb4c7dcfff8e62095415a688675b2387cced78&amp;source=constructor" width="100%" height="1000" frameborder="0"></iframe>
             <div class="map__wrapper">
-                <h2 class="map__title">Доставка</h2>
-                <div class="map__info">
-                    ffhf
-                </div>
+                <h2 class="map__title">Условия заказа и доставки</h2>
+                <p class="map__production">Изготовление торта начинается после того, как с вами свяжется менеджер и вы подтвердите заказ.
+                    Заказы принимаются только на выходные дни и среды.
+                </p>
+                <address class="map__info">
+                    <div class="map__group">
+                    <p>Самовывоз: <span class="map__important">Москва, Зеленоград, к130А</span></p>
+                    <p>Контактный телефон: <span class="map__important">77888444433</span></p>
+                    </div>
+                    <div class="map__group">
+                        <p>Доставка: <span class="map__important">Только до станции метро (400 рублей)</span></p>
+                    </div>
+                </address>
+                <ph
             </div>
          </section>
 
