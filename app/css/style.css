@@ -10,22 +10,23 @@
 }
 .main-header__logo-description {
   position: absolute;
-  margin-top: 36px;
+  margin-top: 12px;
 }
 .main-header__logo-name {
   margin: 0;
   text-align: center;
   width: 200px;
   font-size: 60px;
-  line-height: 0.6;
+  line-height: 1;
 }
 .main-header__logo-title {
   margin: 0;
   width: 200px;
-  font-size: 20px;
   text-align: center;
   color: #444444;
+  font-size: 20px;
   font-family: 'Montserrat';
+  font-weight: 100;
 }
 .main-header__logo::before {
   position: absolute;
@@ -48,6 +49,7 @@
   text-transform: uppercase;
   font-size: 19px;
   font-family: 'Montserrat';
+  font-weight: bold;
 }
 .main-header__menu-item {
   margin: 0;
@@ -57,7 +59,7 @@
   background-image: url('../img/background-welcome.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
-  padding-bottom: 1000px;
+  padding-bottom: 927px;
 }
 .welcome__title {
   margin: 0;
@@ -77,7 +79,7 @@
   width: 1100px;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 296px;
 }
 .author__image {
   height: 500px;
@@ -85,20 +87,19 @@
 }
 .author__description {
   margin: 0;
-  margin-top: 80px;
+  margin-top: 100px;
   width: 550px;
   text-align: center;
-  font-size: 28px;
 }
 .example {
   background-color: #f2f2f2;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 .example__list {
   list-style: none;
   margin: 0;
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin-top: 120px;
+  margin-bottom: 40px;
   padding: 0;
 }
 .example__item {
@@ -110,6 +111,7 @@
   justify-content: space-between;
 }
 .example__description {
+  margin: 0;
   width: 500px;
 }
 .example__image {
@@ -147,6 +149,29 @@
   display: flex;
   justify-content: space-between;
 }
+.best__list {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+.best__item {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+}
+.best__note {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat';
+}
 .order {
   background-image: url('../img/marble.jpg');
   background-attachment: fixed;
@@ -177,7 +202,7 @@ body {
   padding: 0;
   font-family: 'Savoye';
   color: #222222;
-  font-size: 28px;
+  font-size: 34px;
 }
 .visually-hidden {
   position: absolute;
@@ -190,7 +215,7 @@ body {
   font-family: 'Montserrat';
   text-align: center;
   color: black;
-  font-size: 36px;
+  font-size: 44px;
   margin: 0;
   padding-top: 50px;
 }
