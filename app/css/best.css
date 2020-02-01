@@ -22,3 +22,13 @@
   font-family: 'Montserrat';
   font-size: 20px;
 }
+@media (max-width: 1200px) {
+  .best__list {
+    width: 300px;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .best__item {
+    margin-top: 30px;
+  }
+}

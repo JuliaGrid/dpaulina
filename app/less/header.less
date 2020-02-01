@@ -44,7 +44,7 @@
 }
 
 .main-header__menu-list {
-    width: 740px;
+    width: 760px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -65,4 +65,15 @@
 .main-header__menu-href {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 1200px) {
+    .main-header__menu {
+        flex-direction: column;
+    }
+
+    .main-header__menu-list {
+        margin-top: 120px;
+        flex-direction: column;
+    }
 }
