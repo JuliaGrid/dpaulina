@@ -61,8 +61,10 @@
 @media (max-width: 1200px) {
   .main-header__menu {
     flex-direction: column;
+    width: 300px;
   }
   .main-header__menu-list {
+    width: 300px;
     margin-top: 120px;
     flex-direction: column;
   }
@@ -358,6 +360,9 @@
   }
   .order__form {
     flex-direction: column;
+  }
+  .order__group {
+    width: 300px;
   }
   .order__data {
     flex-direction: column;
