@@ -69,10 +69,12 @@
     width: 160px;
     margin-left: 10px;
     font-size: 56px;
+    font-weight: normal;
   }
   .main-header__logo-title {
     width: 160px;
     margin-left: 10px;
+    line-height: 0.8;
   }
   .main-header__menu {
     flex-direction: column;
@@ -523,7 +525,9 @@ body {
   font-family: 'Savoye';
   color: #222222;
   font-size: 34px;
-  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 .visually-hidden {
   position: absolute;
