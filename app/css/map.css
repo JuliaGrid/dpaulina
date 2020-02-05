@@ -23,13 +23,18 @@
   padding-top: 30px;
 }
 .map__production {
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 8px;
-  padding-left: 20px;
+  width: 900px;
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+.map__category {
+  font-family: 'Montserrat';
+  font-size: 22px;
 }
 .map__important {
-  font-family: 'Montserrat';
-  font-size: 20px;
   margin-left: 10px;
   margin-top: 4px;
   text-align: right;
@@ -53,14 +58,18 @@
 @media (max-width: 1200px) {
   .map__wrapper {
     top: 4110px;
-    width: 300px;
-    margin-left: -150px;
+    width: 310px;
+    margin-left: -155px;
+  }
+  .map__production {
+    width: 280px;
+    text-align: justify;
   }
   .map__info {
     flex-direction: column;
-    width: 300px;
+    width: 280px;
   }
   .map__group {
-    width: 300px;
+    width: 280px;
   }
 }

@@ -106,12 +106,29 @@
                             </select>
                         </div>
                         <div class="order__data">
-                                <label for="type">Начинка:</label>
-                                <select class="order__select" id="type">
-                                    <option class="order__option" selected>Клубника</ortion>
-                                    <option class="order__option">Кококс</ortion>
-                                    <option class="order__option">Еще</ortion>
-                                    <option class="order__option">Еще</ortion>
+                                <label for="filling">Начинка:</label>
+                                <select class="order__select buiscit" id="filling">
+                                    <option class="order__option" selected>Клубника-пломбир</ortion>
+                                    <option class="order__option">Манго-кококс</ortion>
+                                    <option class="order__option">Малина-белый шоколад-хрустящий слой</ortion>
+                                    <option class="order__option">Фисташка-малина</ortion>
+                                    <option class="order__option">Морковь-цитрус</ortion>
+                                    <option class="order__option">Грушка-фундук</ortion>
+                                    <option class="order__option">Рафаэло</ortion>
+                                    <option class="order__option">Сникерс</ortion>
+                                    <option class="order__option">Карамель-брусника</ortion>
+                                    <option class="order__option">Трюфель-шоколад-пралине</ortion>
+                                </select>
+                                <select class="order__select buiscit-cheesecake hidden" id="filling">
+                                        <option class="order__option" selected>Ваниль-белый шоколад</ortion>
+                                        <option class="order__option">Шоколад-орео-карамель-тоффи</ortion>
+                                        <option class="order__option">Черника-лаванда</ortion>
+                                        <option class="order__option">Шоколад-смородина</ortion>
+                                        <option class="order__option">Клубника-пломбир</ortion>
+                                </select>
+                                <select class="order__select mouss hidden" id="filling">
+                                        <option class="order__option" selected>Шоколад-ореховый</ortion>
+                                        <option class="order__option">Грушевый тархун-крем брюле</ortion>
                                 </select>
                             </div>
                         <div class="order__data">
@@ -146,11 +163,20 @@
                 </p>
                 <address class="map__info">
                     <div class="map__group">
-                    <p>Самовывоз: <span class="map__important">Москва, Зеленоград, к130А</span></p>
-                    <p>Контактный телефон: <span class="map__important">77888444433</span></p>
+                    <p>
+                        <span class="map__category">Самовывоз:</span> 
+                        <span class="map__important">Москва, Зеленоград, к130А</span>
+                    </p>
+                    <p>
+                        <span class="map__category">Контактный телефон:</span> 
+                        <span class="map__important">77888444433</span>
+                    </p>
                     </div>
                     <div class="map__group">
-                        <p>Доставка: <span class="map__important">Только до станции метро (400 рублей)</span></p>
+                        <p>
+                            <span class="map__category">Доставка:</span> 
+                            <span class="map__important">Только до станции метро <br>(400 рублей)</span>
+                        </p>
                     </div>
                 </address>
                 <ph
@@ -167,5 +193,6 @@
     <!-- <footer class="main-footer">
 fdknbfkldb
      </footer>-->
+   
   </body>
 </html>

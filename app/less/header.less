@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 1200px) {
+    .main-header {
+        background-image: url('../img/header-mobile.jpg');
+    }
+
     .main-header__menu {
         flex-direction: column;
         width: 300px;
@@ -77,5 +81,23 @@
         width: 300px;
         margin-top: 120px;
         flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .main-header__menu-item {
+        width: 320px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-header__logo-description::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-left: 240px;
+        background-image: url('../img/icon-menu.png');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
