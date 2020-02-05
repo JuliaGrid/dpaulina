@@ -2,17 +2,13 @@
    background-image: url('../img/map2.png');
    background-position-x: center;
    background-size: 2000px;
-   padding-bottom: 1000px;
+   padding-bottom: 650px;
    padding-top: 80px;
    background-repeat: no-repeat;
 }
 
 .map__wrapper {
     margin: auto;
-    position: absolute;
-    left: 50%;
-    top: 3780px;
-    margin-left: -500px;
     background-color: white;
     width: 1000px;
 }
@@ -64,10 +60,16 @@
 }
 
 @media (max-width: 1200px) {
+    .map {
+        background-image: url('../img/map-mobile2.png');
+        background-size: 1200px;
+        background-position-y: -130px;
+        padding-top: 40px;
+        padding-bottom: 400px;
+    }
+
     .map__wrapper {
-        top: 4110px;
         width: 310px;
-        margin-left: -155px;
     }
 
     .map__production {
