@@ -523,6 +523,7 @@ body {
   font-family: 'Savoye';
   color: #222222;
   font-size: 34px;
+  -webkit-text-size-adjust: 100%;
 }
 .visually-hidden {
   position: absolute;
